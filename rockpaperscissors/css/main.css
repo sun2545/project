@@ -1,0 +1,91 @@
+/* 
+    Created on : 3-Jan-2016, 2:11:13 PM
+    Author     : Wendi Jollymore
+    YOU DO NOT NEED TO MODIFY THIS CODE.  DON'T.
+    (unless you want to change the colours, and that's fine, but if you do, they must follow the common industry standards and best practices, otherwise you could lose marks)
+*/
+
+/* basic element rules */
+body {
+    font: 16px Arial, sans-serif;
+}
+
+h1 {
+    font-size: 1.5em;
+    border-top: 2px solid darkgreen;
+    border-bottom: 2px solid darkgreen;
+}
+
+table {
+    border: 0px;
+    border-collapse: collapse;
+    margin: 2px 2px 10px 15px;
+}
+
+/* for some of the game headers */
+.game-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 15px 5px;
+}
+
+
+/* formatting for actual images, with/without border :
+   no-img-border sets the border to the same colour as the page background,
+   which prevents shifting when the border is added/removed (you could
+   us a transparent border, instead) */
+.img-border {
+    border: 2px solid red;
+}
+
+.no-img-border {
+    border: 2px solid white;
+}
+
+/* makes the divs containing the images to display in a row, 
+    sets them to a fixed size, and eliminates any extra padding/margin */
+.rps-img {
+    display: inline-block;
+    height: 117px;
+    margin: 0px;
+    padding: 0px;
+    width: 117px;
+}
+
+/* for vertically centering stuff inside a container */
+.vert-center {
+    vertical-align: middle;
+}
+
+/* formatting for the output box that's to the right of the 
+ * computer choice img */
+#output {
+    color: blue;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* formatting for the score box */
+#score {
+    border: 1px dashed darkgreen;
+    background-color: lavender;
+    padding: 10px;
+    width: 50%;
+}
+
+#score div {
+    font-weight: bold;
+}
+
+/* page footer in a box */
+footer {
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 10px;
+    width: 75%;
+}
+
