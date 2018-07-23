@@ -1,6 +1,6 @@
 # project
 
-JDBC-student-tracker 
+# JDBC-student-tracker 
 
 student list
 
