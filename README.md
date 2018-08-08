@@ -1,5 +1,4 @@
-# project
-
+# project( in school)
 ## JDBC-student-tracker 
 student list
 
